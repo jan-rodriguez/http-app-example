@@ -23,3 +23,7 @@ Running server:
 
 Running the database:
 - `docker-compose up -d`
+
+Further reading:
+- [Server connections to the DB](https://fastapi.tiangolo.com/how-to/async-sql-encode-databases/?h=database)
+- [Routing in react](https://reactrouter.com/en/main/start/tutorial)
