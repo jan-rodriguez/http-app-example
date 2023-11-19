@@ -6,12 +6,18 @@ Prerequisites:
 - [Install NPM](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
 - [Install Docker](https://docs.docker.com/desktop/wsl/)
 
-To run client:
+Installing client dependencies:
 - `cd client`
+- `npm install`
+
+Running client:
 - `npm start`
 
-To run server:
+Installing server dependencies:
 - `cd server`
+- `pipenv install`
+
+Running server:
 - `pipenv shell`
 - `uvicorn main:app --reload`
 
